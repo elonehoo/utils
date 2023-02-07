@@ -1,3 +1,6 @@
 export * from './array'
 export * from './math'
 export * from './types'
+export * from './base'
+export * from './equal'
+export * from './function'
