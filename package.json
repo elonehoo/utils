@@ -40,8 +40,13 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
+  "dependencies": {
+    "p-limit": "^4.0.0",
+    "throttle-debounce": "^5.0.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.1",
+    "@types/throttle-debounce": "^5.0.0",
     "bumpp": "^8.2.1",
     "eslint": "^8.33.0",
     "tsup": "^6.5.0",
