@@ -36,7 +36,7 @@ it('partition', () => {
   const data = range(10)
 
   expect(
-    partition(data, i => i % 2),
+    partition(data, (i:any) => i % 2),
   ).toEqual([
     [1, 3, 5, 7, 9],
     [0, 2, 4, 6, 8],
@@ -45,8 +45,8 @@ it('partition', () => {
   expect(
     partition(
       data,
-      i => i % 3 === 0,
-      i => i % 2 === 0,
+      (i:any) => i % 3 === 0,
+      (i:any) => i % 2 === 0,
     ),
   ).toEqual([
     [0, 3, 6, 9],
@@ -57,18 +57,18 @@ it('partition', () => {
   expect(
     partition(
       data,
-      i => i,
+      (i:any) => i,
     ),
   ).toHaveLength(2)
 
   expect(
     partition(
       data,
-      i => i,
-      i => i,
-      i => i,
-      i => i,
-      i => i,
+      (i:any) => i,
+      (i:any) => i,
+      (i:any) => i,
+      (i:any) => i,
+      (i:any) => i,
     ),
   ).toHaveLength(6)
 })
