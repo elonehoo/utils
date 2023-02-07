@@ -1,17 +1,17 @@
 {
   "name": "@elonehoo/utils",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of common JavaScript / TypeScript utils",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/utils#readme",
+  "homepage": "https://github.com/elonehoo/utils#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/utils.git"
+    "url": "git+https://github.com/elonehoo/utils.git"
   },
   "bugs": {
-    "url": "https://github.com/antfu/utils/issues"
+    "url": "https://github.com/elonehoo/utils/issues"
   },
   "keywords": [
     "utils"
