@@ -5,6 +5,7 @@ importers:
   .:
     specifiers:
       '@antfu/eslint-config': ^0.35.1
+      '@types/node': ^18.11.19
       '@types/throttle-debounce': ^5.0.0
       bumpp: ^8.2.1
       eslint: ^8.33.0
@@ -17,6 +18,7 @@ importers:
       throttle-debounce: 5.0.0
     devDependencies:
       '@antfu/eslint-config': 0.35.1_4vsywjlpuriuw3tl5oq6zy5a64
+      '@types/node': 18.11.19
       '@types/throttle-debounce': 5.0.0
       bumpp: 8.2.1
       eslint: 8.33.0
@@ -698,7 +700,6 @@ packages:
 
   /@types/node/18.11.19:
     resolution: {integrity: sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==}
-    dev: false
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
