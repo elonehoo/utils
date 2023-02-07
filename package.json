@@ -36,6 +36,7 @@
     "test":"pnpm -C test run test",
     "test:ui":"pnpm -C test run ui",
     "test:coverage":"pnpm -C test run coverage",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
