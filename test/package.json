@@ -1,0 +1,19 @@
+{
+  "name": "@elonehoo/util-test",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@elonehoo/utils": "workspace:*",
+    "@vitest/coverage-istanbul": "^0.28.4",
+    "@vitest/ui": "^0.28.4",
+    "vite": "^4.1.1",
+    "vitest": "^0.28.4"
+  }
+}

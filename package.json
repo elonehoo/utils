@@ -15,14 +15,14 @@
   },
   "exports": {
     ".": {
-      "types": "./index.d.ts",
+      "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs",
       "import": "./dist/index.js"
     }
   },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "*.d.ts"
@@ -33,6 +33,9 @@
   "scripts": {
     "dev":"tsup --watch",
     "build":"tsup",
+    "test":"pnpm -C test run test",
+    "test:ui":"pnpm -C test run ui",
+    "test:coverage":"pnpm -C test run coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
